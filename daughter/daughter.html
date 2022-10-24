@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        survey form
+    </title>
+</head>
+<body>
+ <script type="text/javascript">
+   //this iS a javascript code to check the suitors salary.
+  var salary = Number(prompt ("input your salary(ensure you do not put comma between the figures)"));//this dislays a dialogue box to input the suitors salary.
+  {
+   if ( salary >= 150000) 
+      {
+        alert ( `"CONGRATULATIONS!!! YOU CAN NOW PROCEED"`);
+      }
+   else if ( salary >= 100000)
+      {
+        alert (`"YOU CAN ONLY DATE HER,YOU CANNOT MARRY HER"`);
+      }
+   else if ( salary >= 50000)
+     {
+        alert 
+          (
+           `"YOUR CHANCES OF DATING HER ARE VERY SLIM"`
+          ) ;
+      }
+    else if (salary < 50000) 
+      {
+        alert 
+        (
+          ` "YOUR ARE NOT ELIGIBLE TO DATE HER"`
+        );
+        window.close();//this is a function that closes the page if the suitors inputed salary is less than 50,000.
+      }
+      else if (salary!=Number){
+      alert (`"YOUR SALARY IS NOT A FIGURE"`)
+        window.close();//this is a function that closes the page if the suitors inputed salary is not a number.
+
+      }
+     
+  }
+ </script>
+    <div class="outside">
+    <link rel="stylesheet" href="daughter.css">
+  <div class="head">
+   <h1>
+     <u>
+     APPLICATION TO DATE MY DAUGHTER
+     </u>
+    </h1>
+    </div>
+   <MARquee>
+        THIS FORM IS TO BE SUBMITTED AT LEAST 21 DAYS PRIOR TO THE DATE
+  </MARquee>
+   <fieldset>
+       <legend>
+         <b>  personal details</b>
+       </legend>
+     <div class="details">
+         
+       <label for="name">NAME:
+       </label>
+       <input type="text" placeholder="enter name here" required><br>
+       <label for="address">Address:</label>
+       <input type="text" placeholder="Enter address here" required>
+       <br>
+       <label for="">
+           email:
+       </label>
+       <input type="email" placeholder="Enter email here" required>
+       <br>
+       <label for="">
+           Tele number
+       </label>
+       <input type="number" name="" id="" placeholder="phone number" required>
+       <br>
+       educational height:
+       <select name="" id="dropdown">
+       <option value="university">university</option>
+       <option value="college">college</option>
+       <option value="college">Masters</option>
+       <option value="none">None</option>
+       </select>
+       </option>
+       <br>
+       <p  class="gender" id="gender">
+         <u> GENDER </u>
+       </p>
+       MALE:
+       <input type="radio" name="gender">
+        <br>
+       FEMALE:
+       <input type="radio" name="gender">
+       <br>
+       OTHERS
+       <input type="radio" name="gender">
+       <br>
+       Date of proposed outing:
+       <input type="date" required>
+     </div> 
+    </fieldset>
+     <br>
+    <fieldset>
+     <label for="applies">
+     <u>check all that applies</u>
+     </label>
+     <br>
+      <input type="checkbox" name="check" id="YES">
+      i have tatoos and/or piercings
+      <br>
+      <input type="checkbox" name="check" id="YES">i am more two years older than my daughter
+      <br>
+      <input type="checkbox" name="check" id="">
+      i work full-time 
+      <br>
+      <input type="checkbox" name="check" id="">
+      my parents are rich 
+      <br>
+      <input type="checkbox" name="check" id="">
+      i own a car 
+    </fieldset>
+   <fieldset>
+     <legend>
+         essay section
+     </legend>
+     <label for="">
+         in 50 words explain why you want to date my daughter
+         <br>
+         <input type="text" placeholder="enter text here" class="words" required>
+     </label>
+    </fieldset>
+      <br>
+     <input type="submit" value="submit your application" onclick="NetworkInformation">
+ </div>
+</body>
+</html>
