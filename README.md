@@ -1,8 +1,8 @@
 # dating-site
-Overview
+# Overview
 This project is a basic dating website built using HTML and CSS for the frontend. It serves as a foundation for a more complex dating platform.
 
-Structure
+# Structure
 The project directory contains the following files and folders:
 
 index.html: The main HTML file for the website.
